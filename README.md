@@ -122,63 +122,91 @@ Strong performance with optimized learning and regularization
 
 ---
 
-⚖️ Threshold Optimization
+## ⚖️ Threshold Optimization
+---
 Instead of using a default threshold (0.5), different thresholds were evaluated to balance:
 
-Precision (avoiding false positives)
-Recall (capturing churn customers)
+- Precision (avoiding false positives)
+- Recall (capturing churn customers)
+  
 This allows businesses to customize risk tolerance based on strategy.
 
-🔍 Model Explainability (SHAP)
+---
+
+## 🔍 Model Explainability (SHAP)
+---
+
 To make the model interpretable, SHAP (SHapley Additive Explanations) was used:
 
-Explains individual predictions
-Identifies global feature importance
-Helps understand why a customer is likely to churn
-Key Insights from SHAP:
-📉 Low tenure → higher churn risk
-📉 Month-to-month contracts → strong churn driver
-📈 Higher monthly charges → increased churn probability
-❌ Lack of services (security, tech support) → higher churn
-📊 Key Insights
-📌 Contract Type
+- Explains individual predictions
+- Identifies global feature importance
+- Helps understand why a customer is likely to churn
+  
+## Key Insights from SHAP:
+
+- 📉 Low tenure → higher churn risk
+- 📉 Month-to-month contracts → strong churn driver
+- 📈 Higher monthly charges → increased churn probability
+- ❌ Lack of services (security, tech support) → higher churn
+
+---
+
+## 📊 Key Insights
+---
+
+**📌 Contract Type**
 Customers on month-to-month contracts show the highest churn probability.
 
-📌 Customer Tenure
+**📌 Customer Tenure**
 Customers with shorter tenure are significantly more likely to churn.
 
-📌 Monthly Charges
+**📌 Monthly Charges**
 Higher monthly charges correlate with increased churn.
 
-📌 Internet Service Type
+**📌 Internet Service Type**
 Customers with fiber optic service have higher churn rates.
 
-📌 Value-added Services
+**📌 Value-added Services**
 Customers without:
 
-Online Security
-Tech Support
-Device Protection
+- Online Security
+- Tech Support
+- Device Protection
+  
 are more likely to churn.
 
-💡 Business Recommendations
+---
+
+## 💡 Business Recommendations
+---
+
 Based on the model insights:
 
-Encourage long-term contracts via incentives
-Offer bundled services to improve retention
-Provide targeted offers to high-paying customers
-Focus retention strategies on new customers with low tenure
-🌐 Deployment
+- Encourage long-term contracts via incentives
+- Offer bundled services to improve retention
+- Provide targeted offers to high-paying customers
+- Focus retention strategies on new customers with low tenure
+
+---
+
+## 🌐 Deployment
+---
+
 The model is deployed using Streamlit, allowing users to:
 
-Input customer data
-Get churn probability instantly
-View model explanations using SHAP
-📌 Conclusion
+- Input customer data
+- Get churn probability instantly
+- View model explanations using SHAP
+
+---
+
+## 📌 Conclusion
+---
 This project demonstrates how to build a production-ready ML solution that combines:
 
-Predictive modeling
-Business understanding
-Explainability
-Deployment
+- Predictive modeling
+- Business understanding
+- Explainability
+- Deployment
+
 It highlights the importance of going beyond modeling to deliver actionable business insights.
