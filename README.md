@@ -22,7 +22,7 @@ Users can input customer information and receive a real-time churn probability p
 ## 🚀 Live Demo
 
 Streamlit App:
-https://customer-churn-prediction-lr-rf.streamlit.app/
+https://customer-churn-prediction-6cymg9pkvhfx2wpmzqkr3c.streamlit.app/
 
 ---
 
