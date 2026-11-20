@@ -40,7 +40,6 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 - Services subscribed (internet, streaming, security, tech support)
 - Billing information (monthly charges, total charges)
 - Target variable: **Churn**
-
 The goal is to build models that predict customer churn probability and enable data-driven retention strategies.
 ---
 
