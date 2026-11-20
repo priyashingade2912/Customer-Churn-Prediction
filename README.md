@@ -23,7 +23,9 @@ Users can input customer information and receive a real-time churn probability p
 
 Streamlit App:
 https://customer-churn-prediction-lr-rf.streamlit.app/
+
 ---
+
 ## 📊 Dataset
 --
 This project uses the Telco Customer Churn Dataset available on Kaggle.
@@ -56,7 +58,6 @@ The goal is to build models that predict customer churn probability and enable d
 - Joblib
   
 ## ⚙️ Machine Learning Pipeline
----
 
 🔹**Numerical Features**
 - Tenure
@@ -112,7 +113,6 @@ Strong performance with optimized learning and regularization
 ---
 
 ## 📈 Model Performance
----
 
 | Model | ROC-AUC | F1 Score | Precision | Recall |
 | :--- | :---: | :---: | :---: | :---: |
