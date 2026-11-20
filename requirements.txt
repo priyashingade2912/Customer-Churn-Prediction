@@ -7,5 +7,6 @@ matplotlib
 seaborn
 scipy
 joblib
+shap
 streamlit
 ipykernel
