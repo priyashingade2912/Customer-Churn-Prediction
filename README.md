@@ -123,7 +123,7 @@ Strong performance with optimized learning and regularization
 ---
 
 ## ⚖️ Threshold Optimization
----
+
 Instead of using a default threshold (0.5), different thresholds were evaluated to balance:
 
 - Precision (avoiding false positives)
@@ -134,7 +134,6 @@ This allows businesses to customize risk tolerance based on strategy.
 ---
 
 ## 🔍 Model Explainability (SHAP)
----
 
 To make the model interpretable, SHAP (SHapley Additive Explanations) was used:
 
@@ -152,7 +151,6 @@ To make the model interpretable, SHAP (SHapley Additive Explanations) was used:
 ---
 
 ## 📊 Key Insights
----
 
 **📌 Contract Type**
 Customers on month-to-month contracts show the highest churn probability.
@@ -178,7 +176,6 @@ are more likely to churn.
 ---
 
 ## 💡 Business Recommendations
----
 
 Based on the model insights:
 
@@ -190,7 +187,6 @@ Based on the model insights:
 ---
 
 ## 🌐 Deployment
----
 
 The model is deployed using Streamlit, allowing users to:
 
@@ -201,7 +197,7 @@ The model is deployed using Streamlit, allowing users to:
 ---
 
 ## 📌 Conclusion
----
+
 This project demonstrates how to build a production-ready ML solution that combines:
 
 - Predictive modeling
