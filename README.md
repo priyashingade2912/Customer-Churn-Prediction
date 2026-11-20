@@ -153,18 +153,23 @@ To make the model interpretable, SHAP (SHapley Additive Explanations) was used:
 ## 📊 Key Insights
 
 **📌 Contract Type**
-Customers on month-to-month contracts show the highest churn probability.
+
+Customers on **month-to-month contracts** show the highest churn probability.
 
 **📌 Customer Tenure**
+
 Customers with shorter tenure are significantly more likely to churn.
 
 **📌 Monthly Charges**
+
 Higher monthly charges correlate with increased churn.
 
 **📌 Internet Service Type**
+
 Customers with fiber optic service have higher churn rates.
 
 **📌 Value-added Services**
+
 Customers without:
 
 - Online Security
