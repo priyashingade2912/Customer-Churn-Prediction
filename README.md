@@ -8,28 +8,31 @@ This project builds an end-to-end Machine Learning system to predict customer ch
 
 The solution goes beyond just modeling and focuses on the complete ML lifecycle, including:
 
-Exploratory Data Analysis (EDA)
-Feature engineering & preprocessing
-Model training and comparison
-Class imbalance handling
-Threshold optimization
-Model explainability using SHAP
-Deployment with Streamlit
+• Exploratory Data Analysis (EDA)
+• Feature engineering & preprocessing
+• Model training and comparison
+• Class imbalance handling
+• Threshold optimization
+• Model explainability using SHAP
+• Deployment with Streamlit
+
 Users can input customer information and receive a real-time churn probability prediction along with model insights.
 
-🚀 Live Demo
+## 🚀 Live Demo
 Streamlit App:
 https://customer-churn-prediction-lr-rf.streamlit.app/
 
-📊 Dataset
+## 📊 Dataset
 This project uses the Telco Customer Churn Dataset available on Kaggle.
 
-Dataset Link:
+## Dataset Link:
 https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
-7043 customer records
-21 features
+• 7043 customer records
+• 21 features
+
 Feature Categories:
+
 Customer demographics (gender, partner, dependents, senior citizen)
 Account information (tenure, contract type, billing method)
 Services subscribed (internet, streaming, security, tech support)
