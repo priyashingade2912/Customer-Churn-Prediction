@@ -19,7 +19,7 @@ The solution goes beyond just modeling and focuses on the complete ML lifecycle,
 Users can input customer information and receive a real-time churn probability prediction along with model insights.
 ---
 ## 🚀 Live Demo
----
+
 Streamlit App:
 https://customer-churn-prediction-lr-rf.streamlit.app/
 ---
