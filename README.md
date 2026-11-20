@@ -15,6 +15,7 @@ The solution goes beyond just modeling and focuses on the complete ML lifecycle,
 - Threshold optimization
 - Model explainability using SHAP
 - Deployment with Streamlit
+  
 Users can input customer information and receive a real-time churn probability prediction along with model insights.
 ---
 ## 🚀 Live Demo
