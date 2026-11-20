@@ -56,7 +56,9 @@ The goal is to build models that predict customer churn probability and enable d
 - Joblib
   
 ## ⚙️ Machine Learning Pipeline
-**🔹 Numerical Features **
+---
+
+🔹**Numerical Features**
 - Tenure
 - MonthlyCharges
 - TotalCharges
@@ -64,8 +66,10 @@ The goal is to build models that predict customer churn probability and enable d
 Processing:
 - Missing value imputation
 - Standard scaling
+
+---
   
-**🔹 Categorical Features **
+🔹 **Categorical Features**
 - Gender
 - Contract type
 - Internet service
@@ -76,25 +80,49 @@ Processing:
 - Missing value imputation
 - One-hot encoding
 
-All preprocessing is handled using a Scikit-learn ColumnTransformer, ensuring a clean and reproducible pipeline.
+---
 
-🤖 Models Used
-🔹 Logistic Regression
+All preprocessing is handled using a **Scikit-learn ColumnTransformer**, ensuring a clean and reproducible pipeline.
+
+---
+
+## 🤖 Models Used
+---
+
+🔹 **Logistic Regression**
+
 Baseline interpretable model
 High recall → good at identifying churn customers
-🔹 Random Forest
+
+---
+
+🔹 **Random Forest**
+
 Ensemble model
 Captures non-linear relationships
 Balanced performance across metrics
-🔹 XGBoost
+
+---
+
+🔹**XGBoost**
+
 Gradient boosting model
 Handles class imbalance using scale_pos_weight
 Strong performance with optimized learning and regularization
-📈 Model Performance
-Model	ROC-AUC	F1 Score	Precision	Recall
-Logistic Regression	0.86	0.64	0.52	0.84
-Random Forest	0.85	0.65	0.56	0.78
-XGBoost	0.85	0.63	0.55	0.75
+
+---
+
+## 📈 Model Performance
+---
+
+| Model | ROC-AUC | F1 Score | Precision | Recall |
+| :--- | :---: | :---: | :---: | :---: |
+| Logistic Regression | 0.86 | 0.64 | 0.52 | 0.84 |
+| Random Forest | 0.85 | 0.65 | 0.56 | 0.78 |
+| XGBoost | 0.85 | 0.63 | 0.55 | 0.75 |
+
+---
+
 ⚖️ Threshold Optimization
 Instead of using a default threshold (0.5), different thresholds were evaluated to balance:
 
