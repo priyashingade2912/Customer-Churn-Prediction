@@ -56,7 +56,7 @@ The goal is to build models that predict customer churn probability and enable d
 - Joblib
   
 ## ⚙️ Machine Learning Pipeline
-🔹 Numerical Features
+**🔹 Numerical Features **
 - Tenure
 - MonthlyCharges
 - TotalCharges
@@ -65,7 +65,7 @@ Processing:
 - Missing value imputation
 - Standard scaling
   
-🔹 Categorical Features
+**🔹 Categorical Features **
 - Gender
 - Contract type
 - Internet service
