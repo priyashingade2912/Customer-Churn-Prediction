@@ -19,17 +19,19 @@ The solution goes beyond just modeling and focuses on the complete ML lifecycle,
 Users can input customer information and receive a real-time churn probability prediction along with model insights.
 ---
 ## 🚀 Live Demo
+---
 Streamlit App:
 https://customer-churn-prediction-lr-rf.streamlit.app/
-
+---
 ## 📊 Dataset
+--
 This project uses the Telco Customer Churn Dataset available on Kaggle.
 
 Dataset Link:
 https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
-- 7043 customer records
-- 21 features
+- **7043 customer records**
+- **21 features**
 
 ## Feature Categories:
 
@@ -37,8 +39,10 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 - Account information (tenure, contract type, billing method)
 - Services subscribed (internet, streaming, security, tech support)
 - Billing information (monthly charges, total charges)
-- Target variable: Churn
-- The goal is to build models that predict customer churn probability and enable data-driven retention strategies.
+- Target variable: **Churn**
+
+The goal is to build models that predict customer churn probability and enable data-driven retention strategies.
+---
 
 ## 🛠 Tech Stack
 - Python
