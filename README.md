@@ -87,7 +87,6 @@ All preprocessing is handled using a **Scikit-learn ColumnTransformer**, ensurin
 ---
 
 ## 🤖 Models Used
----
 
 🔹 **Logistic Regression**
 
