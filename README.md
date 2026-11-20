@@ -1,7 +1,7 @@
 # Customer Churn Prediction App
 
 ## 📌 Project Overview
-
+---
 Customer churn is a critical problem for subscription-based businesses, as retaining existing customers is significantly more cost-effective than acquiring new ones.
 
 This project builds an end-to-end Machine Learning system to predict customer churn probability using customer demographics, service usage, and billing data.
@@ -17,7 +17,7 @@ The solution goes beyond just modeling and focuses on the complete ML lifecycle,
 - Deployment with Streamlit
 
 Users can input customer information and receive a real-time churn probability prediction along with model insights.
-
+---
 ## 🚀 Live Demo
 Streamlit App:
 https://customer-churn-prediction-lr-rf.streamlit.app/
@@ -25,49 +25,52 @@ https://customer-churn-prediction-lr-rf.streamlit.app/
 ## 📊 Dataset
 This project uses the Telco Customer Churn Dataset available on Kaggle.
 
-## Dataset Link:
+Dataset Link:
 https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
-• 7043 customer records
-• 21 features
+- 7043 customer records
+- 21 features
 
-Feature Categories:
+## Feature Categories:
 
-Customer demographics (gender, partner, dependents, senior citizen)
-Account information (tenure, contract type, billing method)
-Services subscribed (internet, streaming, security, tech support)
-Billing information (monthly charges, total charges)
-Target variable: Churn
-The goal is to build models that predict customer churn probability and enable data-driven retention strategies.
+- Customer demographics (gender, partner, dependents, senior citizen)
+- Account information (tenure, contract type, billing method)
+- Services subscribed (internet, streaming, security, tech support)
+- Billing information (monthly charges, total charges)
+- Target variable: Churn
+- The goal is to build models that predict customer churn probability and enable data-driven retention strategies.
 
-🛠 Tech Stack
-Python
-Pandas, NumPy
-Scikit-learn
-XGBoost
-SHAP
-Matplotlib
-Streamlit
-Joblib
-⚙️ Machine Learning Pipeline
+## 🛠 Tech Stack
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- XGBoost
+- SHAP
+- Matplotlib
+- Streamlit
+- Joblib
+  
+## ⚙️ Machine Learning Pipeline
 🔹 Numerical Features
-Tenure
-MonthlyCharges
-TotalCharges
-Processing:
+- Tenure
+- MonthlyCharges
+- TotalCharges
 
-Missing value imputation
-Standard scaling
+Processing:
+- Missing value imputation
+- Standard scaling
+  
 🔹 Categorical Features
-Gender
-Contract type
-Internet service
-Payment method
-Service-related features
-Processing:
+- Gender
+- Contract type
+- Internet service
+- Payment method
+- Service-related features
 
-Missing value imputation
-One-hot encoding
+Processing:
+- Missing value imputation
+- One-hot encoding
+
 All preprocessing is handled using a Scikit-learn ColumnTransformer, ensuring a clean and reproducible pipeline.
 
 🤖 Models Used
